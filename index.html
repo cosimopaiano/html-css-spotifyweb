@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone C. Paiano</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div id="app">
+      <!-- Main content -->
+    <main id="main-window">
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-top">
+          <div class="logo">
+            <img src="img/logo.svg" alt="logo">
+          </div>
+          <div class="home">
+            <a href="#"><img class="vertical-allign" src="img/home.svg" alt="home"> Home</a>
+          </div>
+          <div class="search">
+            <a href="#"><img class="vertical-allign" src="img/search.svg" alt="search"> Cerca</a>
+          </div>
+          <div class="library">
+            <a href="#"><img class="vertical-allign" src="img/libreria.svg" alt="library"> La tua libreria</a>
+          </div>
+
+          <div class="playlist">
+            <h4>PLAYLIST</h4>
+            <a href="#"><i class="fas fa-plus-square"></i> Crea Playlist</a>
+            <a href="#">Nome Playlist</a>
+            <a href="#">Nome Playlist</a>
+            <a href="#">Nome Playlist</a>
+            <a href="#">Nome Playlist</a>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <a href="#"><i class="fas fa-user"></i> Jon Doe</a>
+        </div>
+      </aside>
+
+      <!-- Content -->
+        <div id="content">
+        <div class="content-top-bar">
+          <a class="btn" href="#">EFFETTUA L'UPGRADE</a>
+        </div>
+        <div class="scrollable">
+          <nav class="content-menu">
+            <ul class="listainline">
+              <li><a href="#">IN EVIDENZA</a></li>
+              <li><a href="#">PODCAST</a></li>
+              <li><a href="#">CLASSIFICHE</a></li>
+              <li><a href="#">GENERI & MOOD</a></li>
+              <li><a href="#">NUOVE USCITE</a></li>
+              <li><a href="#">SCOPRI</a></li>
+            </ul>
+          </nav>
+
+          <section class="content-category">
+            <div class="recent-playlist">
+              <h2 class="p-tb">Recently played</h2>
+            </div>
+            <div class="cont-img">
+              <a href="#">
+                <img src="img/metal_lifting.jpg" alt="radar">
+                <h5 class="p-b">Heavy Metal</h5>
+                <p>Subtitle</p>
+              </a>
+              <div>
+                <img src="img/stranger.jpeg" alt="dailymix">
+                <h5 class="p-b">Stranger Things, Vol.1 ( a Netflix Original Series Soundtrack)</h5>
+                <p>Subtitle</p>
+              </div>
+              <div>
+                <img src="img/aquietplace.jpeg" alt="dailymix">
+                <h5 class="p-b">A quiet place</h5>
+                <p>Subtitle</p>
+              </div>
+              <div>
+                <img src="img/split.jpeg" alt="dailymix">
+                <h5 class="p-b">Split</h5>
+                <p>Subtitle</p>
+              </div>
+              <div>
+                <img src="img/cure.jpeg" alt="dailymix">
+                <h5 class="p-b">A cure for wellness</h5>
+                <p>Subtitle</p>
+              </div>
+              <div>
+                <img src="img/sinister.jpeg" alt="dailymix">
+                <h5 class="p-b">Sinister</h5>
+                <p>Subtitle</p>
+              </div>
+            </div>
+          </section>
+
+        </div>
+        </div>
+    </main>
+
+    <!-- Bottom Player -->
+    <footer id="player">Player</footer>
+  </div>
+
+</body>
+</html>
