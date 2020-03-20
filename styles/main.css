@@ -42,9 +42,6 @@ body {
   align-items: center;
 }
 
-
-
-
 /* MAIN WINDOW */
 #main-window {
   flex-grow: 1;
@@ -227,21 +224,25 @@ body {
 }
 
 .content-category {
-  height: 200px; /* Debug */
+  min-height: 200px; /* Debug */
 }
 
 .cont-img {
   display: flex;
 }
 
-.content-category a {
-  text-decoration: none;
+.content-category h5 {
   color: white;
+  padding-top: 10px;
 }
+
 .content-category p {
-  text-align: left;
-  font-size: 13px;
+  font-size: 12px;
   color: grey;
+}
+
+.popular-playlist img {
+  border-radius: 50%;
 }
 
 
